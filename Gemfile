@@ -1,2 +1,4 @@
 source "https://rubygems.org"
-gemspec
+gem "kramdown-parser-gfm"
+gem "rouge"
+gem "jekyll-watch"
