@@ -11,7 +11,7 @@ NicolaD:
     keywords: "deep learning, gan, face anonymization"
     photo: "sml_journal_club/nicola_dallasen.jpg"
     video: "https://youtu.be/A3gHSafBOW0"
-    slides: "slide_journal_club/Talk_10_Graph-based_Generative_Face_Anonymization_with_Pose_Preservation.pdf"
+    slides: "/assets/slides/Talk_10_Graph-based_Generative_Face_Anonymization_with_Pose_Preservation.pdf"
     affil: "University of Pisa and University of Trento"
 
 AndreaB:
@@ -24,7 +24,7 @@ AndreaB:
     keywords: "sequential learning, label noise, human supervisor"
     photo: "sml_journal_club/andrea_bontempelli.jpg"
     video: "https://youtu.be/kSJ1R0zulj4"
-    slides: "slide_journal_club/Talk_9_Interactive_Label_Cleaning_with_Example-based_Explanations.pdf"
+    slides: "/assets/slides/Talk_9_Interactive_Label_Cleaning_with_Example-based_Explanations.pdf"
     affil: "University of Trento"
 
 Mahed:
@@ -39,7 +39,7 @@ Mahed:
     keywords: "end-to-end Dialogue Model, Natural Language Understanding, Pre-Trained Language Model, Grounded Response Generation"
     photo: "sml_journal_club/mahed.jpeg"
     video: "https://youtu.be/vgtk48usnR8"
-    slides: "slide_journal_club/Talk_8_Personalized_Response_Generation.pdf"
+    slides: "/assets/slides/Talk_8_Personalized_Response_Generation.pdf"
     affil: "University of Trento"
 
 Burcu:
@@ -52,7 +52,7 @@ Burcu:
     keywords: "reliable hybrid classification, machine learning, ml calibration "
     photo: "sml_journal_club/burcu.jpg"
     video: "https://youtu.be/C-JrtxeRqZw"
-    slides: "slide_journal_club/Talk_7_Towards_Reliable_Hybrid_Human-Machine_Classifiers.pdf"
+    slides: "/assets/slides/Talk_7_Towards_Reliable_Hybrid_Human-Machine_Classifiers.pdf"
     affil: "University of Trento"
 
 Paolo:
@@ -66,7 +66,7 @@ Paolo:
     keywords: "SMT, probabilistic reasoning, machine learning, formal verification"
     photo: "paolo-m.jpg"
     video: "https://www.youtube.com/watch?v=O0ocm4RDpvI"
-    slides: "slide_journal_club/Talk_6_Learning_and_reasoning_with_probabilistic_SMT.pdf"
+    slides: "/assets/slides/Talk_6_Learning_and_reasoning_with_probabilistic_SMT.pdf"
     affil: "KU Leuven"
 
 neuro-symbolic:
@@ -80,7 +80,7 @@ neuro-symbolic:
     photo: "gianluca_apriceno_crop.jpg"
     video: "https://www.youtube.com/watch?v=t34lPO92OLA"
     affil: "Fondazione Bruno Kessler and University of Trento"
-    slides: "slide_journal_club/Talk_5_Neuro_Symbolic.pdf"
+    slides: "/assets/slides/Talk_5_Neuro_Symbolic.pdf"
 
 Lotito:
   id: lotito
@@ -95,7 +95,7 @@ In this seminar, we will discuss how more sophisticated mathematical frameworks 
   photo: "sml_journal_club/francesco_lotito.jpeg"
   affil: "University of Trento"
   video: "https://www.youtube.com/watch?v=b8xLcyJItWs"
-  slides: "slide_journal_club/Talk_4_journal_club_motifs.pdf"
+  slides: "/assets/slides/Talk_4_journal_club_motifs.pdf"
 
 etm:
     id: etm
@@ -109,7 +109,7 @@ etm:
     photo: "longa.jpg"
     affil: "Fondazione Bruno Kessler and University of Trento"
     video: "https://www.youtube.com/watch?v=_VS7V42XrBk"
-    slides: "slide_journal_club/Talk_3_Egocentric_Temporal_motifs_11_03_2022.pdf"
+    slides: "/assets/slides/Talk_3_Egocentric_Temporal_motifs_11_03_2022.pdf"
 
 
 algorithmRecourse:
@@ -124,7 +124,7 @@ algorithmRecourse:
     photo: "giovanni_crop.jpg"
     affil: "Fondazione Bruno Kessler and University of Trento"
     video: "https://www.youtube.com/watch?v=ITo40HZDrYw"
-    slides: "slide_journal_club/Talk_2_Algorithmic_Recourse_and_Explainable_Counterfactual_Interventions_Handsout_25-02-2022.pdf"
+    slides: "/assets/slides/Talk_2_Algorithmic_Recourse_and_Explainable_Counterfactual_Interventions_Handsout_25-02-2022.pdf"
 
 casual:
     id: causal
@@ -137,4 +137,4 @@ casual:
     photo: "marconato.png"
     affil: "University of Pisa and University of Trento"
     video: "https://www.youtube.com/watch?v=p33bxQ5PskM"
-    slides: "slide_journal_club/Talk_1_Towards_Causal_Representation_Learning.pdf"
+    slides: "/assets/slides/Talk_1_Towards_Causal_Representation_Learning.pdf"
