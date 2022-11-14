@@ -22,8 +22,15 @@
    }
 
    a.btn {
-      color: white !important;
+      color: #1666a8 !important;
+      background-color: white;
       border-color: white;
+   }
+
+   a.btn:hover {
+      color: #DCA11D !important;
+      border-color: white;
+      background-color: white;
    }
 
    h5.talk-title {
