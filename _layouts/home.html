@@ -56,10 +56,11 @@ The AIT Journal Club is an open-science initiative aiming to create a friendly e
             <img style="height: 150px; width: 150px; border-radius: 5px;" src="assets/imgs/{% if talk.photo %}{{ talk.photo }}{% else %}placeholder.png{% endif %}" />
           </div>
           <div class="col-md-10">
-            <h5 class="talk-title"><b> {{talk.date}}</b> - 17:00 @ FabLab UniTrento</h5>
+            <h5 class="talk-title"><b> {{talk.date}} - 17:00</b></h5>
+            <h6 class="talk-title" ><a href="{{talk.location_map_link}}" target=”_blank”>{{talk.location}}</a></h6>
             <h4>{{talk.name}}</h4>
             <h5> {{talk.presenter}} ({{talk.affil}}) {% if talk.website %} - <a href="{{talk.website}}">Website</a> <br>{% else %} {% endif %}</h5>
-            <p>{{talk.email}}</p>
+            <!--<p>{{talk.email}}</p>!-->
             <!--<h4>{{talk.name}}</h4>
             <h5 class="talk-title"><b> {{talk.date}}</b></h5><br>
             <b>Name:</b> {{talk.presenter}} <br>
