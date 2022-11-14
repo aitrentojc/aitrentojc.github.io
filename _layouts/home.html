@@ -20,14 +20,6 @@ The AIT Journal Club is an open-science initiative aiming to create a friendly e
         </p>
       </div>
     </div>
-    <div class="row mt-3">
-      <div class="col-md-12 text-center">
-        <span>
-          Are you curious to know more?<br /> Join our <b>Telegram channel</b> for updates on the following events!
-        </span><br/><br/>
-        &#128073; <b><a class="btn btn-outline-primary btn-lg" role="button" href="https://t.me/smljournalclub">Join now!</a></b>	&#128072;
-      </div>
-    </div>
     <!--
     <div class="row mt-3">
       <div class="col-md-12 text-center">
@@ -35,31 +27,29 @@ The AIT Journal Club is an open-science initiative aiming to create a friendly e
         <span>Are you unable to attend in person? The events are also available in a <b>remote</b> format!</span><br />
         <span>We will release the Zoom link <b>one hour before</b> each event in our Telegram channel!</span>
       </div>
-    -->
-  </div>
+    </div>-->
 </div>
 
-<br>
-
-<div class="journal-content">
-
-<h3>Upcoming events</h3>
-
-<hr >
+<br />
 
 {% for item in site.data.journal_todo %}
     {% assign talk = item[1] %}
       {%  if talk.hide != true %}
+<!--
+      <div class="row d-flex align-items-center">
+        <div class="col-md-12 p-3 text-center">
+          <h6>Next Event</h6>
+          <img style="height: 150px; width: 150px; border-radius: 5px;" src="assets/imgs/{% if talk.photo %}{{ talk.photo }}{% else %}placeholder.png{% endif %}" />
 
-        <div class="row d-flex align-items-center">
-          <div class="col-md-2 p-3 text-center">
-            <img style="height: 150px; width: 150px; border-radius: 5px;" src="assets/imgs/{% if talk.photo %}{{ talk.photo }}{% else %}placeholder.png{% endif %}" />
-          </div>
-          <div class="col-md-10">
-            <h5 class="talk-title"><b> {{talk.date}} - 17:00</b></h5>
+        </div>
+      </div>-->
+
+        <div class="row d-flex align-items-center p-3">
+          <div class="col-md-12 text-center">
+            <h4 class="talk-title"><b> {{talk.date}} - 17:00</b></h4>
             <h6 class="talk-title" ><a href="{{talk.location_map_link}}" target=”_blank”>{{talk.location}}</a></h6>
-            <h4>{{talk.name}}</h4>
-            <h5> {{talk.presenter}} ({{talk.affil}}) {% if talk.website %} - <a href="{{talk.website}}">Website</a> <br>{% else %} {% endif %}</h5>
+            <h3>{{talk.name}}</h3>
+            <h5> {{talk.presenter}} ({{talk.affil}}) {% if talk.website %} - <a href="{{talk.website}}">Website</a> {% else %} {% endif %}</h5>
             <!--<p>{{talk.email}}</p>!-->
             <!--<h4>{{talk.name}}</h4>
             <h5 class="talk-title"><b> {{talk.date}}</b></h5><br>
@@ -72,27 +62,41 @@ The AIT Journal Club is an open-science initiative aiming to create a friendly e
           </div>
         </div>
 
+        {% if talk.abstract %}
+
         <div class="row mt-3">
           <div class="col-md-12">
             <p>
                 {{talk.abstract}}
             </p>
           </div>
-          <hr />
         </div>
+
+        {% endif %}
+
   {% endif %}
 {% endfor %}
+
+<div class="row mt-3 p-3">
+  <div class="col-md-12 text-center">
+    <span>
+      Are you curious to know more?<br /> Join our <b>Telegram channel</b> for updates on the following events!
+    </span><br/><br/>
+    &#128073; <b><a class="btn btn-outline-primary btn-lg" role="button" href="https://t.me/smljournalclub">Join now!</a></b>	&#128072;
+  </div>
+</div>
 
 
 <br />
 <br />
 
 <h3>Past events</h3>
-<hr />
 {% for item in site.data.journal_done %}
     {% assign talk = item[1] %}
     <div class="row d-flex align-items-center" id="{{talk.id}}">
       <div class="col-md-12">
+        <hr />
+
         <h5 class="talk-title"><b> {{talk.date}}</b></h5>
 
         <h4><a id="user-content-code-transformer" class="anchor" aria-hidden="true" href="#{{talk.id}}" style="text-decoration: none;">
@@ -116,7 +120,6 @@ The AIT Journal Club is an open-science initiative aiming to create a friendly e
         </p>
       </div>
     </div>
-    <hr />
     <br />
 {% endfor %}
 
