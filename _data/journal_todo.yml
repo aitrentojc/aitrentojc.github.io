@@ -1,0 +1,10 @@
+Santin:
+    id: santin
+    name: "Some ideas on collaborative learning algorithms"
+    presenter: "Gabriele Santin"
+    date: "November 18, 2022"
+    website: "https://gabrielesantin.github.io/"
+    email: "gsantin@fbk.eu"
+    keywords: "deep learning, gan, face anonymization"
+    photo: "sml_journal_club/santin.jpg"
+    affil: "Fondazione Bruno Kessler (FBK)"

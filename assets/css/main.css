@@ -1,15 +1,33 @@
 /* =============================================================================
    HTML5 CSS Reset Minified - Eric Meyer
    ========================================================================== */
-   
+
    /* =============================================================================
       My CSS
       ========================================================================== */
-   
+
    /* ---- particles.js container ---- */
 
    body {
-    background-color: #c2dff7;
+    background-color: #1666a8;
+    color: white;
+   }
+
+   a {
+      color: #E6F4F1;
+   }
+
+   a:hover {
+      color: #EEE8A9;
+   }
+
+   a.btn {
+      color: white !important;
+      border-color: white;
+   }
+
+   h5.talk-title {
+      color: #DCA11D;
    }
 
    canvas {
@@ -18,7 +36,7 @@
     height: 0%;
     z-index: -1;
    }
-   
+
     #particles-js {
         position: absolute;
         background-color: #2987d4;
