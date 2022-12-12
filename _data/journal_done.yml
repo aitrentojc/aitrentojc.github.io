@@ -1,3 +1,19 @@
+Gsantin:
+  id: santin
+  name: "Some ideas on collaborative learning algorithms"
+  presenter: "Gabriele Santin"
+  date: "November 18th, 2022"
+  website: "https://gabrielesantin.github.io/"
+  email: "gsantin@fbk.eu"
+  abstract: "Collaborative and Federated Leaning are emerging approaches to manage cooperation between a group of agents for the solution of Machine Learning tasks, with the goal of improving each agent’s performance without disclosing any data.
+In this talk we present a recently introduced algorithmic approach and some preliminary attempts to generalize the method and understand the theoretical mechanism behind its functioning.
+In particular, in the first part we will review and discuss a novel algorithmic architecture based on simple Random Forests, designed to the particular case of Anomaly Detection (or classification of rare events), a setting where typical applications often comprise data with sensible information, but where the scarcity of anomalous examples encourages collaboration. In the second part of the presentation we will review some initial ideas to extend this approach to kernel methods, and discuss some interesting phenomena that emerge in this collaborative setting."
+  keywords: "collaborative learning algorithms"
+  photo: "sml_journal_club/santin.jpg"
+  affil: "Fondazione Bruno Kessler (FBK)"
+  location: "FabLab UniTrento, DISI Department, Via Sommarive 9, Povo, Trento"
+  location_map_link: "https://goo.gl/maps/5GZuNdxjx7rnRppY9"
+
 NicolaD:
     id: anonyGAN
     name: "Graph-based Generative Face Anonymization with Pose Preservation"
