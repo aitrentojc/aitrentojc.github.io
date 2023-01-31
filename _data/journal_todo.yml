@@ -1,0 +1,16 @@
+SAzzolin:
+  id: SAzzolin
+  name: "Global Explainability of GNNs via Logic Combination of Learned Concepts"
+  presenter: "Steve Azzolin"
+  date: "February 3rd, 2023"
+  email: "steve.azzolin1@gmail.com"
+  abstract: "While instance-level explanation of Graph Neural Networks (GNNs) is a well-studied problem with plenty of 
+  approaches being developed, providing a global explanation for the behaviour of a GNN is much less explored, despite 
+  its potential in interpretability and debugging. Existing solutions either simply list local explanations for a given 
+  class, or generate a synthetic prototypical graph with maximal score for a given class, completely missing any 
+  combinatorial aspect that the GNN could have learned. In the work that will be presented, we propose GLGExplainer 
+  (Global Logic-based GNN Explainer), the first Global Explainer capable of generating explanations as arbitrary Boolean 
+  combinations of learned graphical concepts."
+  affil: "University of Trento"
+  location: "FabLab UniTrento, DISI Department, Via Sommarive 9, Povo, Trento"
+  location_map_link: "https://goo.gl/maps/5GZuNdxjx7rnRppY9"
