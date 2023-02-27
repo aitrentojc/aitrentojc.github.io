@@ -1,17 +1,1 @@
-APlebe:
-  id: APlebe
-  name: "Current state of self-driving cars and new approaches coming from cognitive science"
-  presenter: "Alice Plebe"
-  date: "February 17th, 2023"
-  website: "https://www.aliceplebe.com/"
-  email: "alice.plebe@unitn.it"
-  abstract: "Autonomous vehicles promise to revolutionize society and improve the daily life of many. After decades of 
-  slow-paced progress, recent advances in AI are bringing this promise close to reality more than ever. However, 
-  the reality we are witnessing is not as bright as expected. It is becoming evident that autonomous vehicles are 
-  incapable of the complex reasoning necessary for driving, in situations where humans are still far more performing. 
-  That is why we are exploring new methods beyond the classic engineering approach, by looking for inspiration from the 
-  only existing intelligent being able to drive: the human. Cognitive mechanisms and brain components involved in 
-  driving can inspire new approaches with the potential to finally shorten the gap between artificial drivers and human drivers."
-  affil: "University of Trento"
-  location: "FabLab UniTrento, DISI Department, Via Sommarive 9, Povo, Trento"
-  location_map_link: "https://goo.gl/maps/5GZuNdxjx7rnRppY9"
+
