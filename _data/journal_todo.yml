@@ -1,1 +1,13 @@
-
+Pedro:
+  id: pedro
+  name: "Modern Probabilistic Logic Programming"
+  presenter: "Pedro Zuidberg Dos Martires"
+  date: "March 3rd, 2023"
+  website: "https://pedrozudo.github.io/"
+  email: "pedro.zuidberg-dos-martires@oru.se"
+  abstract: "Probabilistic logic programming is a powerful tool that combines three key elements of modern artificial intelligence: logical reasoning, probability theory, and programming languages. In this presentation, I will provide an introduction to modern probabilistic logic programming, starting from the basics. We will begin by discussing vanilla logic reasoning and then progress to probabilistic logic reasoning. We will then move on to the generalization of probabilistic logics to probabilistic logic programming and examine modern extensions. Finally, we will see how such a language can be applied in the domain of cognitive robotics."
+  keywords: "probabilistic logic programming"
+  photo: "sml_journal_club/phoyo_pedro.jpg"
+  affil: "University of Örebro"
+  location: "FabLab UniTrento, DISI Department, Via Sommarive 9, Povo, Trento"
+  location_map_link: "https://goo.gl/maps/5GZuNdxjx7rnRppY9"
