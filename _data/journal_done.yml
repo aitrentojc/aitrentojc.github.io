@@ -1,3 +1,17 @@
+Pedro:
+  id: pedro
+  name: "Modern Probabilistic Logic Programming"
+  presenter: "Pedro Zuidberg Dos Martires"
+  date: "March 3rd, 2023"
+  website: "https://pedrozudo.github.io/"
+  email: "pedro.zuidberg-dos-martires@oru.se"
+  abstract: "Probabilistic logic programming is a powerful tool that combines three key elements of modern artificial intelligence: logical reasoning, probability theory, and programming languages. In this presentation, I will provide an introduction to modern probabilistic logic programming, starting from the basics. We will begin by discussing vanilla logic reasoning and then progress to probabilistic logic reasoning. We will then move on to the generalization of probabilistic logics to probabilistic logic programming and examine modern extensions. Finally, we will see how such a language can be applied in the domain of cognitive robotics."
+  keywords: "probabilistic logic programming"
+  photo: "sml_journal_club/phoyo_pedro.jpg"
+  affil: "University of Örebro"
+  location: "FabLab UniTrento, DISI Department, Via Sommarive 9, Povo, Trento"
+  location_map_link: "https://goo.gl/maps/5GZuNdxjx7rnRppY9"
+
 APlebe:
   id: APlebe
   name: "Current state of self-driving cars and new approaches coming from cognitive science"
@@ -5,12 +19,12 @@ APlebe:
   date: "February 17th, 2023"
   website: "https://www.aliceplebe.com/"
   email: "alice.plebe@unitn.it"
-  abstract: "Autonomous vehicles promise to revolutionize society and improve the daily life of many. After decades of 
-  slow-paced progress, recent advances in AI are bringing this promise close to reality more than ever. However, 
-  the reality we are witnessing is not as bright as expected. It is becoming evident that autonomous vehicles are 
-  incapable of the complex reasoning necessary for driving, in situations where humans are still far more performing. 
-  That is why we are exploring new methods beyond the classic engineering approach, by looking for inspiration from the 
-  only existing intelligent being able to drive: the human. Cognitive mechanisms and brain components involved in 
+  abstract: "Autonomous vehicles promise to revolutionize society and improve the daily life of many. After decades of
+  slow-paced progress, recent advances in AI are bringing this promise close to reality more than ever. However,
+  the reality we are witnessing is not as bright as expected. It is becoming evident that autonomous vehicles are
+  incapable of the complex reasoning necessary for driving, in situations where humans are still far more performing.
+  That is why we are exploring new methods beyond the classic engineering approach, by looking for inspiration from the
+  only existing intelligent being able to drive: the human. Cognitive mechanisms and brain components involved in
   driving can inspire new approaches with the potential to finally shorten the gap between artificial drivers and human drivers."
   affil: "University of Trento"
   location: "FabLab UniTrento, DISI Department, Via Sommarive 9, Povo, Trento"
@@ -24,12 +38,12 @@ SAzzolin:
   presenter: "Steve Azzolin"
   date: "February 3rd, 2023"
   email: "steve.azzolin1@gmail.com"
-  abstract: "While instance-level explanation of Graph Neural Networks (GNNs) is a well-studied problem with plenty of 
-  approaches being developed, providing a global explanation for the behaviour of a GNN is much less explored, despite 
-  its potential in interpretability and debugging. Existing solutions either simply list local explanations for a given 
-  class, or generate a synthetic prototypical graph with maximal score for a given class, completely missing any 
-  combinatorial aspect that the GNN could have learned. In the work that will be presented, we propose GLGExplainer 
-  (Global Logic-based GNN Explainer), the first Global Explainer capable of generating explanations as arbitrary Boolean 
+  abstract: "While instance-level explanation of Graph Neural Networks (GNNs) is a well-studied problem with plenty of
+  approaches being developed, providing a global explanation for the behaviour of a GNN is much less explored, despite
+  its potential in interpretability and debugging. Existing solutions either simply list local explanations for a given
+  class, or generate a synthetic prototypical graph with maximal score for a given class, completely missing any
+  combinatorial aspect that the GNN could have learned. In the work that will be presented, we propose GLGExplainer
+  (Global Logic-based GNN Explainer), the first Global Explainer capable of generating explanations as arbitrary Boolean
   combinations of learned graphical concepts."
   affil: "University of Trento"
   video: "https://youtu.be/iLnuI6gVN0o"
@@ -41,8 +55,8 @@ TLabruna:
   presenter: "Tiziano Labruna"
   date: "January 13th, 2023"
   email: " tlabruna@fbk.eu"
-  abstract: "Nowadays conversational systems work quite well when it comes to solve specific tasks, such as restaurant bookings or train ticket purchasing. 
-  A problem that every such system has to face, however, is what happens when the world changes, so that the task-specific domain is modified: a restaurant adds a new type of food, a new train station is added, etc. 
+  abstract: "Nowadays conversational systems work quite well when it comes to solve specific tasks, such as restaurant bookings or train ticket purchasing.
+  A problem that every such system has to face, however, is what happens when the world changes, so that the task-specific domain is modified: a restaurant adds a new type of food, a new train station is added, etc.
   This work demonstrates how the models of a dialogue system degrade their performances in a situation of changes, and proposes some solutions for overcoming this problem."
   affil: "Fondazione Bruno Kessler and Free University of Bozen"
   location: "FabLab UniTrento, DISI Department, Via Sommarive 9, Povo, Trento"

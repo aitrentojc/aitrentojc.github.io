@@ -46,7 +46,7 @@ The AIT Journal Club is an open-science initiative aiming to create a friendly e
 
         <div class="row d-flex align-items-center p-3">
           <div class="col-md-12 text-center">
-            <h4 class="talk-title"><b> {{talk.date}} - 17:00</b></h4>
+            <h4 class="talk-title"><b> {{talk.date}} - {{talk.time}}</b></h4>
             <h6 class="talk-title" ><a href="{{talk.location_map_link}}" target=”_blank”>{{talk.location}}</a></h6>
             <h3>{{talk.name}}</h3>
             <h5> {{talk.presenter}} ({{talk.affil}}) {% if talk.website %} - <a href="{{talk.website}}">Website</a> {% else %} {% endif %}</h5>

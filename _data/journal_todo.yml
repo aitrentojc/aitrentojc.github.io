@@ -1,13 +1,13 @@
-Pedro:
-  id: pedro
-  name: "Modern Probabilistic Logic Programming"
-  presenter: "Pedro Zuidberg Dos Martires"
-  date: "March 3rd, 2023"
-  website: "https://pedrozudo.github.io/"
-  email: "pedro.zuidberg-dos-martires@oru.se"
-  abstract: "Probabilistic logic programming is a powerful tool that combines three key elements of modern artificial intelligence: logical reasoning, probability theory, and programming languages. In this presentation, I will provide an introduction to modern probabilistic logic programming, starting from the basics. We will begin by discussing vanilla logic reasoning and then progress to probabilistic logic reasoning. We will then move on to the generalization of probabilistic logics to probabilistic logic programming and examine modern extensions. Finally, we will see how such a language can be applied in the domain of cognitive robotics."
-  keywords: "probabilistic logic programming"
-  photo: "sml_journal_club/phoyo_pedro.jpg"
-  affil: "University of Örebro"
-  location: "FabLab UniTrento, DISI Department, Via Sommarive 9, Povo, Trento"
-  location_map_link: "https://goo.gl/maps/5GZuNdxjx7rnRppY9"
+LucaMoschella:
+  id: lucamoschella
+  name: "Relative representations enable zero-shot latent space communication"
+  presenter: "Luca Moschella"
+  date: "March 31st, 2023"
+  time: "18:00"
+  website: "https://luca.moschella.dev/"
+  email: "moschella@di.uniroma1.it"
+  abstract: "Neural networks embed the geometric structure of a data manifold lying in a high-dimensional space into latent representations. Ideally, the distribution of the data points in the latent space should depend only on the task, the data, the loss, and other architecture-specific constraints. However, factors such as the random weights initialization, training hyperparameters, or other sources of randomness in the training phase may induce incoherent latent spaces that hinder any form of reuse. Nevertheless, we empirically observe that, under the same data and modeling choices, distinct latent spaces typically differ by an unknown quasi-isometric transformation: that is, in each space, the distances between the encodings do not change. In this talk, I will present a way to adopt pairwise similarities as an alternative data representation, that can be used to enforce the desired invariance without any additional training. Neural architectures can leverage these relative representations to guarantee, in practice, latent isometry invariance, effectively enabling latent space communication: from zero-shot model stitching to latent space comparison between diverse settings and, surprisingly, data modalities."
+  photo: "#"
+  affil: "Sapienza University of Rome"
+  location: "Special Undisclosed Location, Trento"
+  location_map_link: "#"
