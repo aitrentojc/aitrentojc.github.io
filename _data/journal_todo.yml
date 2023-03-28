@@ -14,5 +14,7 @@ LucaMoschellaIreneCannistraci:
       email: "cannistraci@di.uniroma1.it"
   abstract: "Neural architectures can leverage relative representations to guarantee, in practice, invariance to latent isometries and rescalings, effectively enabling latent space communication: from zero-shot model stitching to latent space comparison between diverse settings, architectures, and data modalities. Moreover, an optimization-based method is introduced to discover new parallel anchors from a limited number of seeds, allowing for the discovery of unknown semantic correspondences between different domains, alignment of their relative spaces, and achieving competitive results in several tasks."
   photo: "#"
-  location: "Special Undisclosed Location, Trento"
-  location_map_link: "#"
+  location: "La Bookique, Via Torre d'Augusto, 29, Trento"
+  location_map_link: "https://goo.gl/maps/rbBbjNYGSYCFozGX6"
+  registration: "https://www.eventbrite.com/e/biglietti-communicating-between-latent-spaces-with-limited-semantic-correspondence-598935812137"
+

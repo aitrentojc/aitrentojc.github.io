@@ -76,6 +76,21 @@ The AIT Journal Club is an open-science initiative aiming to create a friendly e
 
         {% endif %}
 
+        {% if talk.registration %}
+
+        <div class="row mt-3">
+          <div class="col-md-12 text-center">
+            <span>
+              Register to the event here below!
+            </span><br/><br/>
+            &#128073; <b><a class="btn btn-outline-primary btn-lg" role="button" href="{{talk.registration}}">Book your ticket!</a></b>	&#128072;
+          </div>
+        </div>
+<br/>
+        <hr />
+
+        {% endif %}
+
   {% endif %}
 {% endfor %}
 
