@@ -1,20 +1,14 @@
-LucaMoschellaIreneCannistraci:
-  id: lucamoschellairenecannistraci
-  name: "Communicating between latent spaces with limited semantic correspondence"
-  date: "March 31st, 2023"
-  time: "18:00"
+GiuseppeAlessioDInverno:
+  id: giuseppealessiodinverno
+  name: "Learning Identity Effects with Graph Neural Networks"
+  date: "August 4th, 2023"
+  time: "17:00"
   presenters:
-    - name: "Luca Moschella"
-      website: "https://luca.moschella.dev/"
-      affil: "Sapienza University of Rome"
-      email: "moschella@di.uniroma1.it"
-    - name: "Irene Cannistraci"
-      website: "https://irene.cannistraci.dev/"
-      affil: "Sapienza University of Rome"
-      email: "cannistraci@di.uniroma1.it"
-  abstract: "Neural architectures can leverage relative representations to guarantee, in practice, invariance to latent isometries and rescalings, effectively enabling latent space communication: from zero-shot model stitching to latent space comparison between diverse settings, architectures, and data modalities. Moreover, an optimization-based method is introduced to discover new parallel anchors from a limited number of seeds, allowing for the discovery of unknown semantic correspondences between different domains, alignment of their relative spaces, and achieving competitive results in several tasks."
+    - name: "Giuseppe Alessio D'inverno"
+      affil: "University of Siena"
+      email: "dinverno@diism.unisi.it"
+  abstract: "Graph Neural Networks (GNNs) have emerged in the past years as a powerful tool to learn tasks on a wide range of graph domains in a data-driven fashion; among all the proposed models, the so-called Message-Passing GNNs (MP-GNNs) have gained more and more popularity for their intuitive formulation, strictly linked with the Weisfeiler-Lehman (WL) test for graph isomorphism, which they have been proven equivalent to. From a theoretical point of view, MP-GNNs have been shown to be universal approximators and their generalization capabilities have been recently investigated for MP-GNNs, under a variety of generalization measures (VC-dimension, Rademacher complexity, etc).The aim of our work is to show the potential and practical limitations on the generalization capabilities of MP-GNNs in their (in)ability to learn the so-called identity effects, i.e. the task of determining if an object is composed of two identical patterns or not. We analyze two case studies: two-letters words, extending the existing results for MLPs and RNNs presented in [1], for which it is shown that, using SGD training, the neural network is not able to generalize to unseen patterns, since the training set is invariant to orthogonal transformations; dicyclic graphs, i.e. graphs composed by two cycles of any length, for which we present positive theoretical results, partially supported by numerical results. The theoretical analysis is supported by an extensive experimental study. [1] Brugiapaglia, Simone, M. Liu, and Paul Tupper. Invariance, encodings, and generalization: learning identity effects with neural networks. Neural Computation 34.8 (2022): 1756-1789."
   photo: "#"
-  location: "La Bookique, Via Torre d'Augusto, 29, Trento"
-  location_map_link: "https://goo.gl/maps/rbBbjNYGSYCFozGX6"
-  registration: "https://www.eventbrite.com/e/biglietti-communicating-between-latent-spaces-with-limited-semantic-correspondence-598935812137"
+  location: "FabLab UniTrento, DISI Department, Via Sommarive 9, Povo, Trento"
+  location_map_link: "https://goo.gl/maps/5GZuNdxjx7rnRppY9"
 
